@@ -5,7 +5,6 @@
   <About />
   <Skills />
   <Education />
-  <Experience />
   <Projects />
   <Contact />
 
@@ -20,7 +19,6 @@ import Home from "./sections/Home.vue"
 import About from "./sections/About.vue"
 import Skills from "./sections/Skills.vue"
 import Education from "./sections/Education.vue"
-import Experience from "./sections/Experience.vue"
 import Projects from "./sections/Projects.vue"
 import Contact from "./sections/Contact.vue"
 </script>

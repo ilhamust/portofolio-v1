@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{vue,js,ts}"
   ],
   theme: {
+    darkMode: 'class',
     extend: {},
   },
   plugins: [],
