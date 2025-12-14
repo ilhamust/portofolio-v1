@@ -34,7 +34,7 @@ onMounted(() => {
           </h1>
           
           <h2 class="text-lg md:text-xl text-gray-300 font-medium mb-4">
-            Full-Stack Developer & UI/UX Enthusiast
+            Full-Stack Developer & Tech Enthusiast
           </h2>
 
           <p class="text-gray-400 max-w-md leading-relaxed mb-8 text-sm md:text-base">
