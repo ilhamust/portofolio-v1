@@ -57,7 +57,7 @@ onMounted(() => {
 
     <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
       
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-cyan-400 uppercase bg-cyan-400/10 rounded-full border border-cyan-400/20">
              Portfolio
         </span>
@@ -94,9 +94,11 @@ onMounted(() => {
       <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
         <div 
-          v-for="project in projects" 
+          v-for="(project, index) in projects" 
           :key="project.id"
           class="group bg-[#111827] border border-white/5 rounded-2xl overflow-hidden hover:border-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-300 flex flex-col"
+          data-aos="fade-up"
+          :data-aos-delay="index * 100"
         >
           <div class="relative overflow-hidden h-48 sm:h-56 w-full">
             <div class="absolute inset-0 bg-gradient-to-t from-[#111827] to-transparent opacity-60 z-10"></div>

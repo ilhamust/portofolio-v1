@@ -36,8 +36,7 @@ const experience = [
     period: '2025 - Sekarang',
     active: true,
     details: [
-      'Membangun solusi aplikasi web untuk berbagai klien.',
-      'Fokus pada pengembangan menggunakan Vue.js dan Tailwind CSS.'
+      'Membangun solusi aplikasi web untuk berbagai klien.'
     ]
   },
   {
@@ -81,7 +80,7 @@ const experience = [
 
     <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
       
-      <div class="mb-16 text-center">
+      <div class="mb-16 text-center" data-aos="fade-up">
         <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-cyan-400 uppercase bg-cyan-400/10 rounded-full border border-cyan-400/20">
              Resume
         </span>
@@ -95,7 +94,7 @@ const experience = [
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
 
-        <div class="bg-white/5 border border-white/5 rounded-2xl p-6 md:p-8 backdrop-blur-sm hover:border-white/10 transition-colors">
+        <div class="bg-white/5 border border-white/5 rounded-2xl p-6 md:p-8 backdrop-blur-sm hover:border-white/10 transition-colors" data-aos="fade-right">
           <div class="flex items-center gap-3 mb-8">
              <div class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -133,7 +132,7 @@ const experience = [
           </div>
         </div>
 
-        <div class="bg-white/5 border border-white/5 rounded-2xl p-6 md:p-8 backdrop-blur-sm hover:border-white/10 transition-colors">
+        <div class="bg-white/5 border border-white/5 rounded-2xl p-6 md:p-8 backdrop-blur-sm hover:border-white/10 transition-colors" data-aos="fade-left">
           <div class="flex items-center gap-3 mb-8">
              <div class="w-10 h-10 rounded-full bg-cyan-500/20 flex items-center justify-center text-cyan-400">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

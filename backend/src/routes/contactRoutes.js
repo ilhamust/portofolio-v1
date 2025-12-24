@@ -1,8 +1,16 @@
-import express from "express";
-import { createContact } from "../controllers/contactController.js";
+import express from 'express'
+import {
+  createContact,
+  getContacts,
+  deleteContact
+} from '../controllers/contactController.js'
 
-const router = express.Router();
+import { verifyToken } from '../middlewares/authMiddleware.js'
 
-router.post("/", createContact);
+const router = express.Router()
 
-export default router;
+router.post('/', createContact)
+router.get('/', getContacts)  // Diakses tanpa token
+router.delete('/:id', verifyToken, deleteContact)
+
+export default router

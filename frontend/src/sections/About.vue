@@ -13,7 +13,7 @@
       
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
-        <div class="relative group">
+        <div class="relative group" data-aos="fade-up" data-aos-delay="100">
           <div class="absolute inset-0 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl transform rotate-3 opacity-20 group-hover:rotate-6 transition-transform duration-500"></div>
           
           <div class="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-[#111827]">
@@ -35,7 +35,7 @@
           </div>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="200">
           <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-cyan-400 uppercase bg-cyan-400/10 rounded-full border border-cyan-400/20">
              Tentang Saya
           </span>
@@ -45,11 +45,11 @@
           </h2>
 
           <p class="text-gray-400 leading-relaxed mb-6 text-sm md:text-base">
-            Halo! Saya Ilham, seorang mahasiswa informatika dan Full-Stack Developer yang berbasis di Indonesia. Perjalanan saya dimulai dari rasa penasaran tentang bagaimana website bekerja, yang kini berkembang menjadi hasrat untuk membangun aplikasi web yang modern dan responsif.
+            Ilham Mustaqim adalah seorang mahasiswa Informatika semester 5 di UNU Yogyakarta yang memiliki rekam jejak akademik impresif dengan IPK 3.95/4.00. Ia dikenal sebagai pengembang yang antusias dalam menggabungkan logika pemrograman yang kuat dengan tampilan visual yang menarik.
           </p>
           
           <p class="text-gray-400 leading-relaxed mb-8 text-sm md:text-base">
-            Saya percaya bahwa kode yang baik bukan hanya tentang fungsi, tetapi juga tentang bagaimana pengguna merasakannya. Saat ini saya fokus memperdalam Vue.js dan teknologi backend modern.
+            Memiliki latar belakang pengalaman sebagai teknisi jaringan dan spesialis media sosial, Ilham kini memfokuskan keahliannya pada pembangunan aplikasi web modern. Ia terampil menggunakan teknologi terkini seperti Vue.js, Laravel, dan Tailwind CSS untuk menciptakan solusi digital yang responsif dan user-friendly.
           </p>
 
 

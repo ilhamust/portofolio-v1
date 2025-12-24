@@ -24,7 +24,7 @@ const skills = [
 
     <div class="max-w-6xl mx-auto px-6 md:px-12 relative z-10">
       
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" data-aos="fade-up">
         <span class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-cyan-400 uppercase bg-cyan-400/10 rounded-full border border-cyan-400/20">
              Tech Stack
         </span>
@@ -45,6 +45,8 @@ const skills = [
                  bg-white/5 border border-white/5 rounded-2xl
                  hover:bg-white/10 hover:border-cyan-500/30 hover:shadow-lg hover:shadow-cyan-500/10 hover:-translate-y-1
                  transition-all duration-300 cursor-default"
+          data-aos="zoom-up"
+          :data-aos-delay="index * 50"
         >
           <div class="w-14 h-14 mb-4 relative flex items-center justify-center">
             <img 

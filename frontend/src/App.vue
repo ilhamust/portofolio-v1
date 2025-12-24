@@ -1,13 +1,12 @@
-<template>
+<!-- <template>
+  <router-view />
   <Navbar />
-
   <Home />
   <About />
   <Skills />
   <Education />
   <Projects />
   <Contact />
-
   <Footer />
 </template>
 
@@ -21,4 +20,8 @@ import Skills from "./sections/Skills.vue"
 import Education from "./sections/Education.vue"
 import Projects from "./sections/Projects.vue"
 import Contact from "./sections/Contact.vue"
-</script>
+</script> -->
+<template>
+  <router-view />
+</template>
+
